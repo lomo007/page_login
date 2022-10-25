@@ -19,7 +19,7 @@
 3. 在本地開啟之後，透過終端機進入資料夾，輸入:
 
    ```bash
-   cd shorten_url
+   cd login_page
    ```
 4. 接著輸入'npm run seed'載入種子資料:
 

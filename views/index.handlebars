@@ -1,16 +1,16 @@
 <div class="container">
   <div class="row">
-    <div class="fs-1 fw-bold text-center m-2">
+    <div class="fs-1 fw-bold text-center m-2 mt-5">
       <p>Account Login</p>
     </div>
     {{!-- 用 form 包住表單, action 設定路由, method 指定方法 --}}
     <form action="/" method="POST">
       <div class="text-center mb-3">
-        <input type="text" class="col-7 p-3 border border-dark" value="{{userEmail}}" name="userEmail"
+        <input type="text" class="col-3 p-3 border border-dark" value="{{userEmail}}" name="userEmail"
           placeholder="Email">
       </div>
       <div class="text-center mb-3">
-        <input type="text" class="col-7 p-3 border border-dark" value="{{userPassword}}" name="userPassword"
+        <input type="text" class="col-3 p-3 border border-dark" value="{{userPassword}}" name="userPassword"
           placeholder="Password">
       </div>
       <div class="text-center">

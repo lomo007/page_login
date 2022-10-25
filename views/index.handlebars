@@ -1,6 +1,10 @@
 <p>Account Login</p>
 
-<input type="text" class="" value="" name="" placeholder="Email">
-<input type="text" class="" value="" name="" placeholder="Password">
+{{!-- 用 form 包住表單, action 設定路由, method 指定方法 --}}
+<form action="/" method="POST">
+  <input type="text" class="" value="{{userEmail}}" name="userEmail" placeholder="Email">
+  <input type="text" class="" value="{{userPassword}}" name="userPassword" placeholder="Password">
+  <label for="">{{#if WaningText}}{{WaningText}}{{/if}}</label>
 
-<button class="" type="submit">Sign in</button>
+  <button class="" type="submit">Sign in</button>
+</form>

@@ -5,7 +5,7 @@ const router = express.Router()
 
 // 首頁路由
 router.get('/', (req, res) => {
-  res.send('hello world')
+  res.render('index')
 })
 
 
